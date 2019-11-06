@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tytuł</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="gameWindow">
+        <header class="logo">Money Clicker!</header>
+        <nav class="navigation">Author: Paulina Lubasińska | 2019</nav>
+        <sidebar class="side-menu">
+            <div class="container">
+                <div class="container-div">
+                    <button onclick="buyMiniShop()" class="btn miniShop">Kup stragan</button>
+                    <p class="have mini-shop-number"></p>
+                    <p class="description">+1$ / click | Koszt: $20</p>
+                </div>
+                <div class="container-div">
+                    <button onclick="buyShop()" class="btn shop">Kup sklep</button>
+                    <p class="have shop-number"></p>
+                    <p class="description">+5$ / click | Koszt: $200</p>
+                </div>
+                <div class="container-div">
+                    <button onclick="buyCarShop()" class="btn car-shop">Kup salon samochodowy</button>
+                    <p class="have car-shop-number"></p>
+                    <p class="description">+10$ / click | Koszt: $2000</p>
+                </div>
+                <div class="container-div">
+                    <button onclick="buyMall()" class="btn mall">Kup centrum handlowe</button>
+                    <p class="have mall-number"></p>
+                    <p class="description">+50$ / click | Koszt: $10000</p>
+                </div>
+                <div class="container-div">
+                    <button onclick="buyBank()" class="btn bank">Kup bank</button>
+                    <p class="have bank-number"></p>
+                    <p class="description">+100$ / click | Koszt: $100000</p>
+                </div>
+            </div>
+        </sidebar>
+        <main class="content">
+            <button onclick="addPoints()" class="click-me">Click Me!</button>
+        </main>
+        <footer class="score">
+            <div class="main-score">0</div>
+            <div class="add-score">0</div>
+        </footer>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
