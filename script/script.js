@@ -59,7 +59,7 @@ function buyCarShop() {
     if (money >= 2000) {
         money = money - 2000;
         updatePoints = updatePoints + 10;
-        shopNumber = shopNumber + 1;
+        carShopNumber = carShopNumber + 1;
         score.innerHTML = `Masz już: $${money}`;
         carShopDesc.innerHTML = `Masz: ${carShopNumber}`
         scoreAdd.innerHTML = `$${updatePoints} / click`;
