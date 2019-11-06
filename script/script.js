@@ -17,7 +17,7 @@ const mallDesc = document.querySelector('.mall-number');
 const bank = document.querySelector('.bank');
 const bankDesc = document.querySelector('.bank-number');
 
-let money = 1000000;
+let money = 0;
 let updatePoints = 1;
 
 let miniShopNumber = 0;
